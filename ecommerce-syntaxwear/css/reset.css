@@ -41,10 +41,15 @@ body {
   line-height: 1.5;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Remove default padding */
 ul,
 ol {
   padding: 0;
+  list-style: none;
 }
 
 /* Make images easier to work with */
