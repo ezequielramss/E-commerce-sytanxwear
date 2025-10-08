@@ -1,11 +1,12 @@
 /* hero.css */
 .hero-section{
  background: url(../../images/banners/hero.png) no-repeat center;   
-
+    
+ border-radius: 20px;
  height: 500px;
  position: relative;
  background-size: cover;
-
+;
 }
 
 .hero-overlay{
