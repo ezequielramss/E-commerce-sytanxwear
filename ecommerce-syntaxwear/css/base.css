@@ -10,7 +10,12 @@ main{
     padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
     margin: 0 auto;
+}
 
+@media (max-width: 1280px){
+    main{
+        padding: 0.625rem;
+    }
 }
 
 .btn{
@@ -39,10 +44,4 @@ main{
     background-color: #6329A2;
     color: #ffffff;
     border-color: #6329A2;
-}
-
-.footer-copy{
-    font-size: 1.25rem;
-    text-align: center;
-    padding: 20px 0;
 }
